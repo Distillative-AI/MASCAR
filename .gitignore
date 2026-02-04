@@ -131,3 +131,64 @@ Thumbs.db
 # Environment variables file
 .env
 .venv
+
+# Unity temporary / build files
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+UserSettings/
+MemoryCaptures/
+Assets/AssetStoreTools*
+*.csproj
+*.unityproj
+*.sln
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
+*.userprefs
+*.apk
+*.aab
+*.app
+*.xcodeproj
+*.xcworkspace
+*.xcuserstate
+
+# Microsoft Office temporary files
+~$*
+*.tmp
+*.~lock.*
+*.wbk
+*.asd
+
+# CAD temporary / backup files
+*.bak
+
+# AutoCAD
+*.dwl
+*.dwl2
+*.sv$
+*.ac$
+
+# SolidWorks (temp/backup suffixes and caches)
+*.sldprt~
+*.sldasm~
+*.slddrw~
+SolidWorks Temp/
+SolidWorks Cache/
+
+# Autodesk Inventor
+*.ipj
+*.iLogicVb/.cache
+
+# Fusion 360 (local caches / temp archives)
+# Note: do not ignore .f3d/.f3z unless you want to exclude exported project files
+Fusion 360 Cache/
+fusion-cache/
+*.f3d_tmp
+*.f3d~
+
